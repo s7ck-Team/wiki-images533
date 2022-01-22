@@ -1,0 +1,1074 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="705" xml:lang="en">
+<defs>
+
+
+  <style type="text/css">@import url(https://weblate.bubu1.eu/static/font-source/source-sans-pro.css);</style>
+
+
+</defs>
+<g id="layer1">
+
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ar/searxng/" xlink:title="Arabic">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="20"
+   id="text20">Arabic</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="20"
+   id="percent20">67%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect20"
+   width="100"
+   height="6"
+   x="200"
+   rx="2"
+   y="14" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/eu/searxng/" xlink:title="Basque">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="35"
+   id="text35">Basque</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="35"
+   id="percent35">65%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect35"
+   width="97"
+   height="6"
+   x="200"
+   rx="2"
+   y="29" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/bg/searxng/" xlink:title="Bulgarian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="50"
+   id="text50">Bulgarian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="50"
+   id="percent50">71%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect50"
+   width="107"
+   height="6"
+   x="200"
+   rx="2"
+   y="44" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ca/searxng/" xlink:title="Catalan">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="65"
+   id="text65">Catalan</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="65"
+   id="percent65">59%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect65"
+   width="88"
+   height="6"
+   x="200"
+   rx="2"
+   y="59" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/zh_Hans/searxng/" xlink:title="Chinese (Simplified)">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="80"
+   id="text80">Chinese (Simplified)</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="80"
+   id="percent80">100%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect80"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="74" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/zh_Hant/searxng/" xlink:title="Chinese (Traditional)">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="95"
+   id="text95">Chinese (Traditional)</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="95"
+   id="percent95">68%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect95"
+   width="102"
+   height="6"
+   x="200"
+   rx="2"
+   y="89" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/hr/searxng/" xlink:title="Croatian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="110"
+   id="text110">Croatian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="110"
+   id="percent110">65%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect110"
+   width="97"
+   height="6"
+   x="200"
+   rx="2"
+   y="104" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/cs/searxng/" xlink:title="Czech">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="125"
+   id="text125">Czech</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="125"
+   id="percent125">71%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect125"
+   width="106"
+   height="6"
+   x="200"
+   rx="2"
+   y="119" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/da/searxng/" xlink:title="Danish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="140"
+   id="text140">Danish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="140"
+   id="percent140">77%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect140"
+   width="115"
+   height="6"
+   x="200"
+   rx="2"
+   y="134" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/nl/searxng/" xlink:title="Dutch">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="155"
+   id="text155">Dutch</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="155"
+   id="percent155">95%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect155"
+   width="143"
+   height="6"
+   x="200"
+   rx="2"
+   y="149" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/en/searxng/" xlink:title="English">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="170"
+   id="text170">English</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="170"
+   id="percent170">100%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect170"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="164" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/eo/searxng/" xlink:title="Esperanto">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="185"
+   id="text185">Esperanto</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="185"
+   id="percent185">59%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect185"
+   width="88"
+   height="6"
+   x="200"
+   rx="2"
+   y="179" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/et/searxng/" xlink:title="Estonian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="200"
+   id="text200">Estonian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="200"
+   id="percent200">66%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect200"
+   width="100"
+   height="6"
+   x="200"
+   rx="2"
+   y="194" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/fil/searxng/" xlink:title="Filipino">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="215"
+   id="text215">Filipino</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="215"
+   id="percent215">53%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect215"
+   width="80"
+   height="6"
+   x="200"
+   rx="2"
+   y="209" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/fi/searxng/" xlink:title="Finnish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="230"
+   id="text230">Finnish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="230"
+   id="percent230">96%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect230"
+   width="144"
+   height="6"
+   x="200"
+   rx="2"
+   y="224" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/fr/searxng/" xlink:title="French">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="245"
+   id="text245">French</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="245"
+   id="percent245">97%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect245"
+   width="146"
+   height="6"
+   x="200"
+   rx="2"
+   y="239" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/gl/searxng/" xlink:title="Galician">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="260"
+   id="text260">Galician</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="260"
+   id="percent260">65%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect260"
+   width="97"
+   height="6"
+   x="200"
+   rx="2"
+   y="254" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/de/searxng/" xlink:title="German">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="275"
+   id="text275">German</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="275"
+   id="percent275">100%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect275"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="269" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/el/searxng/" xlink:title="Greek">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="290"
+   id="text290">Greek</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="290"
+   id="percent290">36%</text>
+<rect
+   style="fill:#f6664c;fill-opacity:1;stroke:none"
+   id="rect290"
+   width="55"
+   height="6"
+   x="200"
+   rx="2"
+   y="284" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/he/searxng/" xlink:title="Hebrew">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="305"
+   id="text305">Hebrew</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="305"
+   id="percent305">100%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect305"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="299" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/hu/searxng/" xlink:title="Hungarian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="320"
+   id="text320">Hungarian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="320"
+   id="percent320">65%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect320"
+   width="97"
+   height="6"
+   x="200"
+   rx="2"
+   y="314" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/id/searxng/" xlink:title="Indonesian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="335"
+   id="text335">Indonesian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="335"
+   id="percent335">100%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect335"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="329" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ia/searxng/" xlink:title="Interlingua">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="350"
+   id="text350">Interlingua</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="350"
+   id="percent350">57%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect350"
+   width="86"
+   height="6"
+   x="200"
+   rx="2"
+   y="344" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/it/searxng/" xlink:title="Italian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="365"
+   id="text365">Italian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="365"
+   id="percent365">96%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect365"
+   width="144"
+   height="6"
+   x="200"
+   rx="2"
+   y="359" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ja/searxng/" xlink:title="Japanese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="380"
+   id="text380">Japanese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="380"
+   id="percent380">75%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect380"
+   width="113"
+   height="6"
+   x="200"
+   rx="2"
+   y="374" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/lt/searxng/" xlink:title="Lithuanian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="395"
+   id="text395">Lithuanian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="395"
+   id="percent395">65%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect395"
+   width="97"
+   height="6"
+   x="200"
+   rx="2"
+   y="389" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/nb_NO/searxng/" xlink:title="Norwegian Bokmål">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="410"
+   id="text410">Norwegian Bokmål</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="410"
+   id="percent410">98%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect410"
+   width="148"
+   height="6"
+   x="200"
+   rx="2"
+   y="404" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/oc/searxng/" xlink:title="Occitan">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="425"
+   id="text425">Occitan</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="425"
+   id="percent425">59%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect425"
+   width="88"
+   height="6"
+   x="200"
+   rx="2"
+   y="419" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/fa/searxng/" xlink:title="Persian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="440"
+   id="text440">Persian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="440"
+   id="percent440">96%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect440"
+   width="144"
+   height="6"
+   x="200"
+   rx="2"
+   y="434" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/pl/searxng/" xlink:title="Polish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="455"
+   id="text455">Polish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="455"
+   id="percent455">98%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect455"
+   width="147"
+   height="6"
+   x="200"
+   rx="2"
+   y="449" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/pt/searxng/" xlink:title="Portuguese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="470"
+   id="text470">Portuguese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="470"
+   id="percent470">74%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect470"
+   width="111"
+   height="6"
+   x="200"
+   rx="2"
+   y="464" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/pt_BR/searxng/" xlink:title="Portuguese (Brazil)">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="485"
+   id="text485">Portuguese (Brazil)</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="485"
+   id="percent485">77%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect485"
+   width="115"
+   height="6"
+   x="200"
+   rx="2"
+   y="479" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ro/searxng/" xlink:title="Romanian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="500"
+   id="text500">Romanian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="500"
+   id="percent500">59%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect500"
+   width="88"
+   height="6"
+   x="200"
+   rx="2"
+   y="494" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ru/searxng/" xlink:title="Russian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="515"
+   id="text515">Russian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="515"
+   id="percent515">98%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect515"
+   width="147"
+   height="6"
+   x="200"
+   rx="2"
+   y="509" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/sr/searxng/" xlink:title="Serbian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="530"
+   id="text530">Serbian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="530"
+   id="percent530">65%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect530"
+   width="97"
+   height="6"
+   x="200"
+   rx="2"
+   y="524" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/sk/searxng/" xlink:title="Slovak">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="545"
+   id="text545">Slovak</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="545"
+   id="percent545">66%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect545"
+   width="99"
+   height="6"
+   x="200"
+   rx="2"
+   y="539" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/sl/searxng/" xlink:title="Slovenian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="560"
+   id="text560">Slovenian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="560"
+   id="percent560">58%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect560"
+   width="87"
+   height="6"
+   x="200"
+   rx="2"
+   y="554" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/es/searxng/" xlink:title="Spanish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="575"
+   id="text575">Spanish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="575"
+   id="percent575">96%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect575"
+   width="144"
+   height="6"
+   x="200"
+   rx="2"
+   y="569" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/sv/searxng/" xlink:title="Swedish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="590"
+   id="text590">Swedish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="590"
+   id="percent590">66%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect590"
+   width="99"
+   height="6"
+   x="200"
+   rx="2"
+   y="584" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/ta/searxng/" xlink:title="Tamil">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="605"
+   id="text605">Tamil</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="605"
+   id="percent605">95%</text>
+<rect
+   style="fill:#2eccaa;fill-opacity:1;stroke:none"
+   id="rect605"
+   width="143"
+   height="6"
+   x="200"
+   rx="2"
+   y="599" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/te/searxng/" xlink:title="Telugu">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="620"
+   id="text620">Telugu</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="620"
+   id="percent620">33%</text>
+<rect
+   style="fill:#f6664c;fill-opacity:1;stroke:none"
+   id="rect620"
+   width="49"
+   height="6"
+   x="200"
+   rx="2"
+   y="614" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/bo/searxng/" xlink:title="Tibetan">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="635"
+   id="text635">Tibetan</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="635"
+   id="percent635">55%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect635"
+   width="83"
+   height="6"
+   x="200"
+   rx="2"
+   y="629" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/tr/searxng/" xlink:title="Turkish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="650"
+   id="text650">Turkish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="650"
+   id="percent650">69%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect650"
+   width="103"
+   height="6"
+   x="200"
+   rx="2"
+   y="644" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/uk/searxng/" xlink:title="Ukrainian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="665"
+   id="text665">Ukrainian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="665"
+   id="percent665">53%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect665"
+   width="80"
+   height="6"
+   x="200"
+   rx="2"
+   y="659" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/vi/searxng/" xlink:title="Vietnamese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="680"
+   id="text680">Vietnamese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="680"
+   id="percent680">67%</text>
+<rect
+   style="fill:#38f;fill-opacity:1;stroke:none"
+   id="rect680"
+   width="101"
+   height="6"
+   x="200"
+   rx="2"
+   y="674" />
+</a>
+
+<a xlink:href="https://weblate.bubu1.eu/languages/cy/searxng/" xlink:title="Welsh">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080;text-anchor:end;"
+   x="190"
+   y="695"
+   id="text695">Welsh</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',Sans;fill:#808080"
+   x="360"
+   y="695"
+   id="percent695">44%</text>
+<rect
+   style="fill:#f6664c;fill-opacity:1;stroke:none"
+   id="rect695"
+   width="67"
+   height="6"
+   x="200"
+   rx="2"
+   y="689" />
+</a>
+
+
+</g>
+</svg>
+
+
