@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Be Suspicious. Online Security Blog - Suspekt.org</title><style id="rocket-critical-css">a.tcb-button-link{background-color:#1abc9c;padding:12px 15px;font-size:18px;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:-webkit-inline-box;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-align-items:center;overflow:hidden;width:100%;text-align:center;line-height:1.2em}a.tcb-button-link>span:before{position:absolute;content:'';display:none;top:-100px;bottom:-100px;width:1px;left:10px;background-color:#007900}span.tcb-button-texts{color:inherit;display:block;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;-webkit-flex:1;position:relative}span.tcb-button-texts>span{display:block;padding:0}.tcb-post-thumbnail{display:block;max-width:100%}.tcb-post-thumbnail.thrv_wrapper{margin-top:0;margin-bottom:0;padding:0}.tcb-post-thumbnail img{-webkit-box-sizing:border-box;box-sizing:border-box;height:auto;vertical-align:middle;max-width:100%;width:100%}.tcb-post-title.thrv_wrapper{margin-top:15px;margin-bottom:15px;padding:0}.tcb-post-title.thrv_wrapper a{text-decoration:none}.tcb-post-title a{-webkit-box-shadow:none;box-shadow:none;color:inherit;font-weight:inherit}.tcb-post-content.thrv_wrapper{margin-top:15px;margin-bottom:15px;padding:0}#tve_editor .tcb-post-content p{font-size:16px;line-height:1.6em}.tcb-post-list{-webkit-box-sizing:content-box;box-sizing:content-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;padding:0!important}@media (min-width:1024px){#tve_editor .tcb-post-list .tcb-post-title{font-size:20px}}@media (max-width:1023px){#tve_editor .tcb-post-list .tcb-post-title{font-size:18px}.tcb-post-list .tcb-post-title.thrv_wrapper{margin-top:10px;margin-bottom:10px}}#tve_editor .tcb-post-list .tcb-post-title{line-height:1.4em}.tcb-post-read-more{display:table;float:left;position:relative}.tcb-post-read-more.thrv_wrapper{margin-bottom:0;margin-top:0;padding:0}.tcb-post-read-more .tcb-button-link{background-color:#fff!important;border-radius:5px;border:1px solid #d7d7d7;color:#0a0a0a;font-size:14px;padding:10px;text-decoration:none}.tcb-post-read-more-clear:after{clear:both}article{-webkit-box-sizing:border-box;box-sizing:border-box;width:100%}article.thrv_wrapper{margin-bottom:0;margin-top:0;padding:0}.tcb-clear:after{display:block;height:0;content:''}@media screen and (max-device-width:480px){body{-webkit-text-size-adjust:none}}html{text-rendering:auto!important}html body{text-rendering:auto!important}.thrv_wrapper div{-webkit-box-sizing:content-box;box-sizing:content-box}.thrv_wrapper{margin-top:20px;margin-bottom:20px;padding:1px}.thrv_wrapper.thrv_text_element{margin:0}p{font-size:1em}@media only screen and (-webkit-min-device-pixel-ratio:0) and (min-width:900px){::i-block-chrome{min-width:250px}}.grid-100:after,.grid-100:before,.grid-container:after,.grid-container:before,[class*=mobile-grid-]:after,[class*=mobile-grid-]:before,[class*=tablet-grid-]:after,[class*=tablet-grid-]:before{content:".";display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.grid-100:after,.grid-container:after,[class*=mobile-grid-]:after,[class*=tablet-grid-]:after{clear:both}.grid-container{margin-left:auto;margin-right:auto;max-width:1200px;padding-left:10px;padding-right:10px}.grid-100,[class*=mobile-grid-],[class*=tablet-grid-]{box-sizing:border-box;padding-left:10px;padding-right:10px}.grid-parent{padding-left:0;padding-right:0}@media (max-width:767px){.mobile-grid-100{clear:both;width:100%}}@media (min-width:768px) and (max-width:1024px){.tablet-grid-100{clear:both;width:100%}}@media (min-width:1025px){.grid-100{clear:both;width:100%}}a,body,div,form,h2,html,li,p,span,ul{border:0;margin:0;padding:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}article,header,main,nav,section{display:block}ul{list-style:none}a{background-color:transparent}a img{border:0}body,button,input{font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-weight:400;text-transform:none;font-size:17px;line-height:1.5}p{margin-bottom:1.5em}h2{font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit}h2{font-size:35px;margin-bottom:20px;line-height:1.2em;font-weight:400;text-transform:none}ul{margin:0 0 1.5em 3em}ul{list-style:disc}li>ul{margin-bottom:0;margin-left:1.5em}img{height:auto;max-width:100%}button,input{font-size:100%;margin:0;vertical-align:baseline}button{border:1px solid transparent;background:#55555e;-webkit-appearance:button;padding:10px 20px;color:#fff}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=search]{background:#fafafa;color:#666;border:1px solid #ccc;border-radius:0;padding:10px 15px;box-sizing:border-box;max-width:100%}a,a:visited{text-decoration:none}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important}.entry-content:after,.inside-header:not(.grid-container):after,.site-content:after,.site-header:after{content:"";display:table;clear:both}.main-navigation{z-index:100;padding:0;clear:both;display:block}.main-navigation a{display:block;text-decoration:none;font-weight:400;text-transform:none;font-size:15px}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation .main-nav ul li a{padding-left:20px;padding-right:20px;line-height:60px}.inside-navigation{position:relative}.main-navigation li{float:left;position:relative}.nav-float-right .inside-header .main-navigation{float:right;clear:right}.main-navigation li.search-item{float:right}.main-navigation .mobile-bar-items a{padding-left:20px;padding-right:20px;line-height:60px}.main-navigation ul ul{display:block;box-shadow:1px 1px 0 rgba(0,0,0,.1);float:left;position:absolute;left:-99999px;opacity:0;z-index:99999;width:200px;text-align:left;top:auto;height:0;overflow:hidden}.main-navigation ul ul a{display:block}.main-navigation ul ul li{width:100%}.main-navigation .main-nav ul ul li a{line-height:normal;padding:10px 20px;font-size:14px}.main-navigation .main-nav ul li.menu-item-has-children>a{padding-right:0;position:relative}.menu-item-has-children .dropdown-menu-toggle{display:inline-block;height:100%;clear:both;padding-right:20px;padding-left:10px}.site-header{position:relative}.inside-header{padding:20px 40px}.site-logo{display:inline-block;max-width:100%}.site-header .header-image{vertical-align:middle}.site-content{word-wrap:break-word}.post{margin:0 0 2em}.separate-containers .inside-article{padding:40px}.separate-containers .site-main>*{margin-bottom:20px}.separate-containers .site-main{margin:20px}.separate-containers.no-sidebar .site-main{margin-left:0;margin-right:0}.separate-containers .site-main>:last-child{margin-bottom:0}.container.grid-container{width:auto}.menu-toggle,.mobile-bar-items{display:none}.menu-toggle{padding:0 20px;line-height:60px;margin:0;font-weight:400;text-transform:none;font-size:15px}button.menu-toggle{background-color:transparent;width:100%;border:0;text-align:center}.menu-toggle .mobile-menu{padding-left:3px}.nav-search-enabled .main-navigation .menu-toggle{text-align:left}.mobile-bar-items{display:none;position:absolute;right:0;top:0;z-index:21;list-style-type:none}.mobile-bar-items a{display:inline-block}@media (max-width:768px){.inside-header>:not(:last-child):not(.main-navigation){margin-bottom:20px}.site-header{text-align:center}.content-area{float:none;width:100%;left:0;right:0}.site-main{margin-left:0!important;margin-right:0!important}}.dropdown-menu-toggle:before,.menu-toggle:before,.search-item a:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.menu-toggle:before{content:"\f0c9";font-family:GeneratePress;width:1.28571429em;text-align:center;display:inline-block}.search-item a:before{content:"\f002";font-family:GeneratePress;width:1.28571429em;text-align:center;display:inline-block}.dropdown-menu-toggle:before{content:"\f107";font-family:GeneratePress;display:inline-block;width:.8em;text-align:left}.site-logo.mobile-header-logo{display:flex;align-items:center;order:1;margin-right:auto;margin-left:10px}.site-logo.mobile-header-logo img{position:relative;vertical-align:middle;padding:10px 0;display:block;box-sizing:border-box}.main-navigation.mobile-header-navigation{display:none;float:none;margin-bottom:0}#mobile-header .inside-navigation,.main-navigation.has-branding .inside-navigation{flex-wrap:wrap;display:flex;align-items:center}.main-navigation .menu-toggle{flex-grow:1;width:auto}.main-navigation.has-branding .menu-toggle{flex-grow:0;order:3;padding-right:20px}.main-navigation .mobile-bar-items{order:2;position:relative}.main-navigation:not(.slideout-navigation):not(.has-branding):not(.has-sticky-branding) .menu-toggle{order:1;flex-grow:1}.main-navigation:not(.slideout-navigation) .mobile-bar-items+.menu-toggle{text-align:left}.main-navigation:not(.slideout-navigation) .main-nav{order:4}.mobile-bar-items{position:relative}</style><link rel="preload" href="https://www.suspekt.org/wp-content/cache/min/1/ba462dea383067fc2679cd45db4d42a0.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media="all" data-minify="1" />
+
+		<!-- All in One SEO 4.1.5.3 -->
+		<meta name="description" content="Suspekt.org is a web security blog dedicated towards educating users in regards with techniques and tips to reduce the risks associated while browsing online." />
+		<meta name="robots" content="max-image-preview:large" />
+		<meta name="google-site-verification" content="xO6JeulDa6MTuPVdMyvmwPApqZD7KL6V2Sjpbxyl374" />
+		<link rel="canonical" href="https://www.suspekt.org/" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.suspekt.org\/#website","url":"https:\/\/www.suspekt.org\/","name":"SuspeKt","description":"Be Suspicious. Online Security Blog","inLanguage":"en-US","publisher":{"@id":"https:\/\/www.suspekt.org\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.suspekt.org\/?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https:\/\/www.suspekt.org\/#organization","name":"SuspeKt","url":"https:\/\/www.suspekt.org\/","logo":{"@type":"ImageObject","@id":"https:\/\/www.suspekt.org\/#organizationLogo","url":"https:\/\/www.suspekt.org\/wp-content\/uploads\/2021\/04\/Suspekt-logo.jpg","width":530,"height":150},"image":{"@id":"https:\/\/www.suspekt.org\/#organizationLogo"}},{"@type":"BreadcrumbList","@id":"https:\/\/www.suspekt.org\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.suspekt.org\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.suspekt.org\/","name":"Home","description":"Suspekt.org is a web security blog dedicated towards educating users in regards with techniques and tips to reduce the risks associated while browsing online.","url":"https:\/\/www.suspekt.org\/"}}]},{"@type":"WebPage","@id":"https:\/\/www.suspekt.org\/#webpage","url":"https:\/\/www.suspekt.org\/","name":"Be Suspicious. Online Security Blog - Suspekt.org","description":"Suspekt.org is a web security blog dedicated towards educating users in regards with techniques and tips to reduce the risks associated while browsing online.","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/www.suspekt.org\/#website"},"breadcrumb":{"@id":"https:\/\/www.suspekt.org\/#breadcrumblist"},"datePublished":"2020-03-06T07:11:34+00:00","dateModified":"2022-01-09T08:50:40+00:00"}]}
+		</script>
+		<script data-rocketlazyloadscript='data:text/javascript;base64,CgkJCXdpbmRvdy5nYT13aW5kb3cuZ2F8fGZ1bmN0aW9uKCl7KGdhLnE9Z2EucXx8W10pLnB1c2goYXJndW1lbnRzKX07Z2EubD0rbmV3IERhdGU7CgkJCWdhKCdjcmVhdGUnLCAiVUEtMTY4NDU5OTk0LTEiLCAnYXV0bycpOwoJCQlnYSgnc2VuZCcsICdwYWdldmlldycpOwoJCQ==' type="text/javascript"></script>
+		<script data-rocketlazyloadscript='https://www.google-analytics.com/analytics.js' async ></script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="SuspeKt &raquo; Feed" href="https://www.suspekt.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SuspeKt &raquo; Comments Feed" href="https://www.suspekt.org/comments/feed/" />
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='preload'   href='//fonts.googleapis.com/css?family=Droid+Sans:regular,700|Raleway:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media='all' />
+
+
+
+
+<style id='generate-style-inline-css'>
+body{background-color:#f9f9f9;color:#293c4f;}a{color:#cd2653;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:945px;}.wp-block-group__inner-container{max-width:945px;margin-left:auto;margin-right:auto;}@media (max-width: 920px) and (min-width: 769px){.inside-header{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;}.site-logo, .site-branding{margin-bottom:1.5em;}#site-navigation{margin:0 auto;}.header-widget{margin-top:1.5em;}}.site-header .header-image{width:300px;}.navigation-search{position:absolute;left:-99999px;pointer-events:none;visibility:hidden;z-index:20;width:100%;top:0;transition:opacity 100ms ease-in-out;opacity:0;}.navigation-search.nav-search-active{left:0;right:0;pointer-events:auto;visibility:visible;opacity:1;}.navigation-search input[type="search"]{outline:0;border:0;vertical-align:bottom;line-height:1;opacity:0.9;width:100%;z-index:20;border-radius:0;-webkit-appearance:none;height:60px;}.navigation-search input::-ms-clear{display:none;width:0;height:0;}.navigation-search input::-ms-reveal{display:none;width:0;height:0;}.navigation-search input::-webkit-search-decoration, .navigation-search input::-webkit-search-cancel-button, .navigation-search input::-webkit-search-results-button, .navigation-search input::-webkit-search-results-decoration{display:none;}.main-navigation li.search-item{z-index:21;}li.search-item.active{transition:opacity 100ms ease-in-out;}.nav-left-sidebar .main-navigation li.search-item.active,.nav-right-sidebar .main-navigation li.search-item.active{width:auto;display:inline-block;float:right;}.gen-sidebar-nav .navigation-search{top:auto;bottom:0;}body, button, input, select, textarea{font-family:"Droid Sans", sans-serif;}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-title{font-size:45px;}.main-navigation a, .menu-toggle{font-family:"Raleway", sans-serif;font-weight:300;font-size:17px;}.main-navigation .main-nav ul ul li a{font-size:14px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}h1{font-family:"Raleway", sans-serif;font-weight:bold;font-size:40px;}h2{font-family:"Raleway", sans-serif;font-weight:bold;font-size:32px;}h3{font-family:"Raleway", sans-serif;font-weight:bold;font-size:26px;}h4{font-family:"Raleway", sans-serif;font-weight:bold;font-size:21px;line-height:1.2em;}h5{font-size:10px;}@media (max-width:768px){.main-title{font-size:20px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;color:#3a3a3a;}.site-header a{color:#3a3a3a;}.main-title a,.main-title a:hover{color:#222222;}.site-description{color:#757575;}.mobile-menu-control-wrapper .menu-toggle,.mobile-menu-control-wrapper .menu-toggle:hover,.mobile-menu-control-wrapper .menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0, 0, 0, 0.02);}.main-navigation,.main-navigation ul ul{background-color:#ffffff;}.main-navigation .main-nav ul li a,.menu-toggle, .main-navigation .menu-bar-items{color:#29394f;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#cd2653;background-color:#ffffff;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#29394f;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#cd2653;background-color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a{color:#cd2653;background-color:#ffffff;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#cd2653;background-color:#ffffff;}.main-navigation ul ul{background-color:#ffffff;}.main-navigation .main-nav ul ul li a{color:#280542;}.main-navigation .main-nav ul ul li:hover > a,.main-navigation .main-nav ul ul li:focus > a,.main-navigation .main-nav ul ul li.sfHover > a{color:#f9f9f9;background-color:#cd2653;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#8f919e;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul ul li[class*="current-menu-"].sfHover > a{color:#8f919e;background-color:#4f4f4f;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.inside-article a,.paging-navigation a,.comments-area a,.page-header a{color:#cd2653;}.inside-article a:hover,.paging-navigation a:hover,.comments-area a:hover,.page-header a:hover{color:#841130;}.entry-header h1,.page-header h1{color:#293c4f;}.entry-title a{color:#293c4f;}.entry-meta{color:#595959;}.entry-meta a{color:#cd2653;}.entry-meta a:hover{color:#cd2653;}h1{color:#293c4f;}h2{color:#293c4f;}h3{color:#293c4f;}h4{color:#293c4f;}h5{color:#293c4f;}.sidebar .widget{background-color:#ffffff;}.sidebar .widget .widget-title{color:#000000;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#222222;}.site-info a{color:#ffffff;}.site-info a:hover{color:#606060;}.footer-bar .widget_nav_menu .current-menu-item a{color:#606060;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#cd2653;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#293c4f;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}@media (max-width: 768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#29394f;}}.inside-top-bar{padding:10px;}.inside-header{padding:40px 100px 40px 100px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.main-navigation .main-nav ul li a,.menu-toggle,.main-navigation .mobile-bar-items a{line-height:90px;}.main-navigation .main-nav ul ul li a{padding:30px 20px 30px 20px;}.main-navigation ul ul{width:317px;}.navigation-search input[type="search"]{height:90px;}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.menu-item-has-children ul .dropdown-menu-toggle{padding-top:30px;padding-bottom:30px;margin-top:-30px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}.site-info{padding:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header, .wp-block-group__inner-container{padding:30px;}.site-info{padding-right:10px;padding-left:10px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}@media (max-width: 768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+.dynamic-author-image-rounded{border-radius:100%;}.dynamic-featured-image, .dynamic-author-image{vertical-align:middle;}.one-container.blog .dynamic-content-template:not(:last-child), .one-container.archive .dynamic-content-template:not(:last-child){padding-bottom:0px;}.dynamic-entry-excerpt > p:last-child{margin-bottom:0px;}
+h1.entry-title{font-weight:bold;font-size:48px;line-height:1.2em;}h2.entry-title{font-weight:bold;line-height:1.1em;}.navigation-branding .main-title{font-weight:bold;text-transform:none;font-size:45px;}@media (max-width:768px){h1.entry-title{font-size:30px;}}@media (max-width: 768px){.navigation-branding .main-title{font-size:20px;}}
+</style>
+
+
+<style id='generate-navigation-branding-inline-css'>
+@media (max-width: 768px){.site-header, #site-navigation, #sticky-navigation{display:none !important;opacity:0.0;}#mobile-header{display:block !important;width:100% !important;}#mobile-header .main-nav > ul{display:none;}#mobile-header.toggled .main-nav > ul, #mobile-header .menu-toggle, #mobile-header .mobile-bar-items{display:block;}#mobile-header .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;}}.navigation-branding img, .site-logo.mobile-header-logo img{height:90px;width:auto;}.navigation-branding .main-title{line-height:90px;}@media (max-width: 955px){#site-navigation .navigation-branding, #sticky-navigation .navigation-branding{margin-left:10px;}}@media (max-width: 768px){.main-navigation:not(.slideout-navigation) .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;}.main-navigation:not(.slideout-navigation) .inside-navigation{-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;}.nav-aligned-center .navigation-branding, .nav-aligned-left .navigation-branding{margin-right:auto;}.nav-aligned-center  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-center  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-branding:not(.slideout-navigation) .inside-navigation .main-nav,.nav-aligned-left  .main-navigation.has-sticky-branding.navigation-stick .inside-navigation .main-nav{margin-right:0px;}}
+</style>
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://www.suspekt.org/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}.wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<script src='https://www.suspekt.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' defer></script>
+
+<link rel='https://api.w.org/' href='https://www.suspekt.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.suspekt.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.suspekt.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.11" />
+<link rel='shortlink' href='https://www.suspekt.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.suspekt.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.suspekt.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.suspekt.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.suspekt.org%2F&#038;format=xml" />
+<style type="text/css" id="tve_global_variables">:root{}</style><meta name="viewport" content="width=device-width, initial-scale=1"><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">.saboxplugin-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border:1px solid #eee;width:100%;clear:both;display:block;overflow:hidden;word-wrap:break-word;position:relative}.saboxplugin-wrap .saboxplugin-gravatar{float:left;padding:0 20px 20px 20px}.saboxplugin-wrap .saboxplugin-gravatar img{max-width:100px;height:auto;border-radius:0;}.saboxplugin-wrap .saboxplugin-authorname{font-size:18px;line-height:1;margin:20px 0 0 20px;display:block}.saboxplugin-wrap .saboxplugin-authorname a{text-decoration:none}.saboxplugin-wrap .saboxplugin-authorname a:focus{outline:0}.saboxplugin-wrap .saboxplugin-desc{display:block;margin:5px 20px}.saboxplugin-wrap .saboxplugin-desc a{text-decoration:underline}.saboxplugin-wrap .saboxplugin-desc p{margin:5px 0 12px}.saboxplugin-wrap .saboxplugin-web{margin:0 20px 15px;text-align:left}.saboxplugin-wrap .sab-web-position{text-align:right}.saboxplugin-wrap .saboxplugin-web a{color:#ccc;text-decoration:none}.saboxplugin-wrap .saboxplugin-socials{position:relative;display:block;background:#fcfcfc;padding:5px;border-top:1px solid #eee}.saboxplugin-wrap .saboxplugin-socials a svg{width:20px;height:20px}.saboxplugin-wrap .saboxplugin-socials a svg .st2{fill:#fff; transform-origin:center center;}.saboxplugin-wrap .saboxplugin-socials a svg .st1{fill:rgba(0,0,0,.3)}.saboxplugin-wrap .saboxplugin-socials a:hover{opacity:.8;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;box-shadow:none!important;-webkit-box-shadow:none!important}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color{box-shadow:none;padding:0;border:0;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;display:inline-block;color:#fff;font-size:0;text-decoration:inherit;margin:5px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;overflow:hidden}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey{text-decoration:inherit;box-shadow:none;position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;margin:10px 5px;color:#444;fill:#444}.clearfix:after,.clearfix:before{content:' ';display:table;line-height:0;clear:both}.ie7 .clearfix{zoom:1}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitch{border-color:#38245c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-addthis{border-color:#e91c00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-behance{border-color:#003eb0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-delicious{border-color:#06c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-deviantart{border-color:#036824}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-digg{border-color:#00327c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-dribbble{border-color:#ba1655}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-facebook{border-color:#1e2e4f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-flickr{border-color:#003576}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-github{border-color:#264874}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-google{border-color:#0b51c5}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-googleplus{border-color:#96271a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-html5{border-color:#902e13}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-instagram{border-color:#1630aa}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-linkedin{border-color:#00344f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-pinterest{border-color:#5b040e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-reddit{border-color:#992900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-rss{border-color:#a43b0a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-sharethis{border-color:#5d8420}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-skype{border-color:#00658a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-soundcloud{border-color:#995200}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-spotify{border-color:#0f612c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stackoverflow{border-color:#a95009}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-steam{border-color:#006388}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-user_email{border-color:#b84e05}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stumbleUpon{border-color:#9b280e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-tumblr{border-color:#10151b}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitter{border-color:#0967a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vimeo{border-color:#0d7091}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-windows{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-whatsapp{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-wordpress{border-color:#0f3647}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-yahoo{border-color:#14002d}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-youtube{border-color:#900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-xing{border-color:#000202}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mixcloud{border-color:#2475a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vk{border-color:#243549}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-medium{border-color:#00452c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-quora{border-color:#420e00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-meetup{border-color:#9b181c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-goodreads{border-color:#000}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-snapchat{border-color:#999700}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-500px{border-color:#00557f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mastodont{border-color:#185886}.sabox-plus-item{margin-bottom:20px}@media screen and (max-width:480px){.saboxplugin-wrap{text-align:center}.saboxplugin-wrap .saboxplugin-gravatar{float:none;padding:20px 0;text-align:center;margin:0 auto;display:block}.saboxplugin-wrap .saboxplugin-gravatar img{float:none;display:inline-block;display:-moz-inline-stack;vertical-align:middle;zoom:1}.saboxplugin-wrap .saboxplugin-desc{margin:0 10px 20px;text-align:center}.saboxplugin-wrap .saboxplugin-authorname{text-align:center;margin:10px 0 20px}}body .saboxplugin-authorname a,body .saboxplugin-authorname a:hover{box-shadow:none;-webkit-box-shadow:none}a.sab-profile-edit{font-size:16px!important;line-height:1!important}.sab-edit-settings a,a.sab-profile-edit{color:#0073aa!important;box-shadow:none!important;-webkit-box-shadow:none!important}.sab-edit-settings{margin-right:15px;position:absolute;right:0;z-index:2;bottom:10px;line-height:20px}.sab-edit-settings i{margin-left:5px}.saboxplugin-socials{line-height:1!important}.rtl .saboxplugin-wrap .saboxplugin-gravatar{float:right}.rtl .saboxplugin-wrap .saboxplugin-authorname{display:flex;align-items:center}.rtl .saboxplugin-wrap .saboxplugin-authorname .sab-profile-edit{margin-right:10px}.rtl .sab-edit-settings{right:auto;left:0}img.sab-custom-avatar{max-width:75px;}.saboxplugin-wrap {margin-top:0px; margin-bottom:0px; padding: 0px 0px }.saboxplugin-wrap .saboxplugin-authorname {font-size:18px; line-height:25px;}.saboxplugin-wrap .saboxplugin-desc p, .saboxplugin-wrap .saboxplugin-desc {font-size:14px !important; line-height:21px !important;}.saboxplugin-wrap .saboxplugin-web {font-size:14px;}.saboxplugin-wrap .saboxplugin-socials a svg {width:18px;height:18px;}</style><link rel="icon" href="https://www.suspekt.org/wp-content/uploads/2021/04/suspekt-favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.suspekt.org/wp-content/uploads/2021/04/suspekt-favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.suspekt.org/wp-content/uploads/2021/04/suspekt-favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.suspekt.org/wp-content/uploads/2021/04/suspekt-favicon.png" />
+<style type="text/css" class="tve_global_style">@media(min-width: 300px){.tcb-style-wrap h5 {color:rgb(41, 60, 79);background-color:rgba(0, 0, 0, 0);font-family:"Droid Sans", sans-serif;font-size:17px;font-weight:400;font-style:normal;margin:0px 0px 20px;padding:0px;text-decoration:none solid rgb(41, 60, 79);text-transform:none;border-left:0px none rgb(41, 60, 79);--tcb-applied-color:;}}</style>			<style type="text/css"
+				   class="tve_custom_style">@media (min-width: 300px){.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 20px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 70px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:not(:nth-child(2n)) { margin-right: 40px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:nth-child(2n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aef9ab33"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 35px !important; }.tcb-post-list[data-css="tve-u-170aef9ab33"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aef9ab33"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 35px !important; }.tcb-post-list[data-css="tve-u-170aef9ab33"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aefdc6e0"] .post-wrapper.thrv_wrapper { width: calc(33.3333% - 15.3333px); }.tcb-post-list[data-css="tve-u-170aefdc6e0"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170aefdc6e0"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aefdc6e0"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 23px !important; }.tcb-post-list[data-css="tve-u-170aefdc6e0"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:not(:nth-child(n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-174fe1399f7"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-174fe1399f7"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1399f7"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 25px !important; }.tcb-post-list[data-css="tve-u-174fe1399f7"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe162f7e"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-174fe162f7e"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe162f7e"] .post-wrapper.thrv_wrapper:not(:nth-child(n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-174fe162f7e"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 20px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1895fc"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-174fe1895fc"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1895fc"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 20px !important; }.tcb-post-list[data-css="tve-u-174fe1895fc"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1f6678"] .post-wrapper.thrv_wrapper { width: calc(33.3333% - 20px); }.tcb-post-list[data-css="tve-u-174fe1f6678"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-174fe1f6678"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1f6678"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-174fe1f6678"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe211209"] .post-wrapper.thrv_wrapper { width: calc(33.3333% - 20px); }.tcb-post-list[data-css="tve-u-174fe211209"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-174fe211209"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe211209"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-174fe211209"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-175d1e53c43"] .post-wrapper.thrv_wrapper { width: calc(33.3333% - 20px); }.tcb-post-list[data-css="tve-u-175d1e53c43"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-175d1e53c43"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-175d1e53c43"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-175d1e53c43"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-175d210aeda"] .post-wrapper.thrv_wrapper { width: calc(33.3333% - 20px); }.tcb-post-list[data-css="tve-u-175d210aeda"] .post-wrapper.thrv_wrapper:nth-child(n+4) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-175d210aeda"] .post-wrapper.thrv_wrapper:not(:nth-child(n+4)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-175d210aeda"] .post-wrapper.thrv_wrapper:not(:nth-child(3n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-175d210aeda"] .post-wrapper.thrv_wrapper:nth-child(3n) { margin-right: 0px !important; }}@media (max-width: 1023px){.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 15px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:not(:nth-child(2n)) { margin-right: 15px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:nth-child(2n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:not(:nth-child(2n)) { margin-right: 30px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:nth-child(2n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 50px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:not(:nth-child(2n)) { margin-right: 40px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:nth-child(2n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 15px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:not(:nth-child(2n)) { margin-right: 15px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:nth-child(2n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:nth-child(n+3) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:not(:nth-child(2n)) { margin-right: 20px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:not(:nth-child(n+3)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:nth-child(2n) { margin-right: 0px !important; }}@media (max-width: 767px){.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 30px !important; }.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170ae9880a4"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 15px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb37e7a"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aeb4e449"] .post-wrapper.thrv_wrapper:not(:nth-child(n)) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-170aef91380"] .post-wrapper.thrv_wrapper:not(:nth-child(n)) { margin-right: 40px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-170af01635d"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 15px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:not(:nth-child(n)) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe18e6b4"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:nth-child(n+2) { margin-top: 20px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:not(:nth-child(n+2)) { margin-top: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:not(:nth-child(n)) { margin-right: 0px !important; }.tcb-post-list[data-css="tve-u-174fe1efb10"] .post-wrapper.thrv_wrapper:nth-child(n) { margin-right: 0px !important; }}</style>		<style id="wp-custom-css">
+			/* My Table */
+
+.mtable {
+	display: table;
+	border: 1px solid #e9ecef;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1rem;
+	background-color: transparent;
+	box-sizing: border-box;
+	position: relative;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: left;
+	table-layout: auto;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+.mtable * {
+	box-sizing: border-box;
+}
+.mtable td {
+	display: table-cell;
+}
+.mtable img {
+	max-width: 100% 
+}
+.mtable tr th {
+	word-break: keep-all;
+}
+.mtable .tbtn {
+	border: 1px solid transparent;
+	padding: 7px 15px;
+	font-size: 14px;
+	text-decoration: none !important;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1);
+	background-color: #cd2653;
+}
+.mtable .tbtn:hover {
+		color: rgba(255, 255, 255, 1);
+	background-color: #7c1518 !important;
+	border-color: transparent !important;
+}
+.mtable .tbtn:visited {
+		color: rgba(255, 255, 255, 1);
+	background-color: #cd2653;
+	border-color: transparent !important;
+}
+.mtable thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-align: center;
+}
+.mtable-header {
+	background-color: #273C4E !important;
+	color: rgba(255, 255, 255, 1) !important;
+}
+.mtable-header th {
+	background-color: #273C4E !important;
+	color: rgba(255, 255, 255, 1) !important;
+}
+.mtable thead tr.mtable-header {
+	background: inherit;
+	border-color: inherit;
+}
+.mtable thead > tr > th {
+	font-size: 14px !important;
+	font-family: "Open Sans";
+	vertical-align: middle;
+	padding: .92857143em .78571429em !important;
+	border-width: 1px 1px 2px 1px !important;
+	border-style: solid !important;
+	border-color: #ddd !important;
+	border-top: 0 !important;
+	line-height: 1.42857143;
+}
+.mtable tbody {
+	border-color: rgba(234, 233, 233, 1) !important;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+.mtable tbody td {
+	background: inherit;
+	color: inherit;
+	border-color: inherit;
+}
+.mtable tbody tr {
+	border-left: 2px solid #ebebeb !important;
+	border-right: 2px solid #ebebeb !important;
+	background: inherit !important;
+	color: inherit !important;
+	border-color: inherit !important;
+}
+.mtable tbody > tr > td {
+	font-size: 14px;
+	border-color: rgba(234, 233, 233, 1) !important;
+	background: inherit;
+	color: inherit;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	padding: 8px;
+	line-height: 1.42857143;
+	word-break: keep-all;
+}
+.mtable .blue_highlight {
+	background-color: rgba(243, 246, 254, 1);
+}
+.table-img {
+	width: 15%;
+}
+
+@media (max-width: 767px) {
+.mtable-noshow {
+	display: none !important;
+}
+.mtable, .mtable thead, .mtable tbody {
+	display: block;
+}
+.mtable thead tr, .mtable thead th {
+	display: flex;
+}
+.mtable td {
+	display: inline-block;
+}
+.mtable .col1 {
+	width: 35%;
+}
+.mtable .col2 {
+	width: 65%;
+}
+.table-img {
+	width: 35%;
+	display: inline-block;
+}
+.mtable .blue_highlight {
+	width: 63%;
+	display: inline-block;
+}
+.mtable .mbefore:before {
+	white-space: nowrap;
+	border-width: 2px;
+	border-color: rgb(234, 233, 233);
+	padding: 0px 4px 0px 4px;
+	background-color: rgba(243, 246, 254, 1);
+	font-weight: bold;
+	margin-right: 5px;
+}
+.mtable .editor-comment:before {
+	content: "Editor's Comment:";
+}
+.mtable .table-rating {
+	width: 100%;
+	text-align:center;
+}
+.mtable .table-btn {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+.mtable .tbtn {
+		padding: 15px 15px
+}
+.table-rating:before {
+	content: "Rating: ";
+}
+}
+
+/* END My Table */
+/* content wrapper */
+.bfb-content-box{
+background-color: #fff;
+border-color: #CD2653;
+border-width: 3px;
+border-style: solid;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 40px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+}	
+/* END content wrapper */
+/* Button */
+a.my-button {
+line-height: 1.8em;
+font-size: 20px;
+color: #fff;
+background-color: #CD2653;
+border: 2px solid #CD2653;
+border-radius: 2px;
+padding: 15px 25px;
+-moz-transition: all 0.8s;
+-webkit-transition: all 0.8s;
+transition: all 0.8s;
+}
+
+a.my-button:hover {
+background-color: #fff;
+color: #CD2653;
+border: 2px solid #CD2653;
+border-radius: 2px;
+padding: 15px 25px;
+}
+/* End Button*/		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script>
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+
+<body data-rsssl=1 class="home page-template-default page page-id-1097 wp-custom-logo wp-embed-responsive post-image-aligned-center sticky-menu-fade mobile-header mobile-header-logo no-sidebar nav-float-right separate-containers fluid-header active-footer-widgets-3 nav-search-enabled header-aligned-left dropdown-hover" itemtype="https://schema.org/WebPage" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header">
+				<div class="site-logo">
+					<a href="https://www.suspekt.org/" title="SuspeKt" rel="home">
+						<img width="530" height="150"  class="header-image is-logo-image" alt="SuspeKt" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20530%20150'%3E%3C/svg%3E" title="SuspeKt" data-lazy-src="https://www.suspekt.org/wp-content/uploads/2021/04/Suspekt-logo.jpg" /><noscript><img width="530" height="150"  class="header-image is-logo-image" alt="SuspeKt" src="https://www.suspekt.org/wp-content/uploads/2021/04/Suspekt-logo.jpg" title="SuspeKt" /></noscript>
+					</a>
+				</div>		<nav id="site-navigation" class="main-navigation sub-menu-right" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://www.suspekt.org/">
+					<input type="search" class="search-field" value="" name="s" title="Search" />
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-menu-1" class=" menu sf-menu"><li id="menu-item-494" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-494"><a href="https://www.suspekt.org/category/spy-apps/">Spy Apps<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1659" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1659"><a href="https://www.suspekt.org/best-spy-apps/">9 Best Phone Spy Apps for Android and iPhone of 2022</a></li>
+	<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1534"><a href="https://www.suspekt.org/best-phone-tracker-apps-without-permission/">Best Phone Tracker Apps Without Permission</a></li>
+</ul>
+</li>
+<li id="menu-item-1080" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1080"><a href="https://www.suspekt.org/category/vpn/">VPN</a></li>
+<li id="menu-item-495" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-495"><a href="https://www.suspekt.org/category/antivirus/">Antivirus</a></li>
+<li id="menu-item-1360" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1360"><a href="https://www.suspekt.org/category/password-managers/">Password Managers</a></li>
+<li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444"><a href="https://www.suspekt.org/about/">About</a></li>
+<li id="menu-item-449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-449"><a href="https://www.suspekt.org/contact/">Contact</a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li></ul></div>			</div>
+		</nav>
+					</div>
+		</header>
+				<nav id="mobile-header" class="main-navigation mobile-header-navigation has-branding" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://www.suspekt.org/">
+					<input type="search" class="search-field" value="" name="s" title="Search" />
+				</form><div class="site-logo mobile-header-logo">
+						<a href="https://www.suspekt.org/" title="SuspeKt" rel="home">
+							<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%2075'%3E%3C/svg%3E" alt="SuspeKt" class="is-logo-image" width="150" height="75" data-lazy-src="https://www.suspekt.org/wp-content/uploads/2021/05/suspekt-mobile-logo.jpg" /><noscript><img src="https://www.suspekt.org/wp-content/uploads/2021/05/suspekt-mobile-logo.jpg" alt="SuspeKt" class="is-logo-image" width="150" height="75" /></noscript>
+						</a>
+					</div>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+							<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
+						<span class="mobile-menu">Menu</span>					</button>
+					<div id="mobile-menu" class="main-nav"><ul id="menu-menu-2" class=" menu sf-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-494"><a href="https://www.suspekt.org/category/spy-apps/">Spy Apps<span role="presentation" class="dropdown-menu-toggle"></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1659"><a href="https://www.suspekt.org/best-spy-apps/">9 Best Phone Spy Apps for Android and iPhone of 2022</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1534"><a href="https://www.suspekt.org/best-phone-tracker-apps-without-permission/">Best Phone Tracker Apps Without Permission</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1080"><a href="https://www.suspekt.org/category/vpn/">VPN</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-495"><a href="https://www.suspekt.org/category/antivirus/">Antivirus</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1360"><a href="https://www.suspekt.org/category/password-managers/">Password Managers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444"><a href="https://www.suspekt.org/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-449"><a href="https://www.suspekt.org/contact/">Contact</a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li></ul></div>			</div><!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
+		
+	<div id="page" class="site grid-container container hfeed grid-parent">
+				<div id="content" class="site-content">
+			
+	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-100 tablet-grid-100">
+		<main id="main" class="site-main">
+			
+<article id="post-1097" class="post-1097 page type-page status-publish" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		
+		<div class="entry-content" itemprop="text">
+			<div id="tve_flt" class="tve_flt tcb-style-wrap"><div id="tve_editor" class="tve_shortcode_editor"><div class="thrv_wrapper thrv_text_element"><h2 class="" style="text-align: center;">Featured Guides</h2></div><style type="text/css" class="tve_global_style">@media(min-width: 300px){.tcb-style-wrap h5 {color:rgb(41, 60, 79);background-color:rgba(0, 0, 0, 0);font-family:"Droid Sans", sans-serif;font-size:17px;font-weight:400;font-style:normal;margin:0px 0px 20px;padding:0px;text-decoration:none solid rgb(41, 60, 79);text-transform:none;border-left:0px none rgb(41, 60, 79);--tcb-applied-color:;}}</style><main class="tcb-post-list thrv_wrapper" data-type="grid" data-pagination-type="none" data-pages_near_current="2" data-css="tve-u-174fe1f6678" data-total_post_count="3" data-total_sticky_count="0" data-no_posts_text="" data-disabled-links="0"><article id="post-1633" class="post-1633 post type-post status-publish format-standard has-post-thumbnail hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-spy-apps/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-spy-apps/" title="9 Best Phone Spy Apps for Android and iPhone of 2022" data-css=""><img width="700" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20400'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="Hidden Spy Apps For Iphone &amp; Android" data-lazy-srcset="https://www.suspekt.org/wp-content/uploads/2021/08/Hidden-Spy-Apps-For-Iphone-Android.jpg 700w, https://www.suspekt.org/wp-content/uploads/2021/08/Hidden-Spy-Apps-For-Iphone-Android-300x171.jpg 300w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" data-lazy-src="https://www.suspekt.org/wp-content/uploads/2021/08/Hidden-Spy-Apps-For-Iphone-Android.jpg" /><noscript><img width="700" height="400" src="https://www.suspekt.org/wp-content/uploads/2021/08/Hidden-Spy-Apps-For-Iphone-Android.jpg" class="attachment-full size-full wp-post-image" alt="Hidden Spy Apps For Iphone &amp; Android" srcset="https://www.suspekt.org/wp-content/uploads/2021/08/Hidden-Spy-Apps-For-Iphone-Android.jpg 700w, https://www.suspekt.org/wp-content/uploads/2021/08/Hidden-Spy-Apps-For-Iphone-Android-300x171.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></noscript></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-spy-apps/" title="9 Best Phone Spy Apps for Android and iPhone of 2022" target="_blank">9 Best Phone Spy Apps for Android and iPhone of 2022</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Looking to spy on someone&#8217;s phone secretly? This comprehensive guide will list <a class="more-link" href="https://www.suspekt.org/best-spy-apps/#more-1633"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-spy-apps/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1398" class="post-1398 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-phone-tracker-apps-without-permission/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-phone-tracker-apps-without-permission/" title="5 Best Phone Tracker Apps Without Permission in 2022" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-phone-tracker-apps-without-permission/" title="5 Best Phone Tracker Apps Without Permission in 2022" target="_blank">5 Best Phone Tracker Apps Without Permission in 2022</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>It is no big secret that with the advancements of technology, people <a class="more-link" href="https://www.suspekt.org/best-phone-tracker-apps-without-permission/#more-1398"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-phone-tracker-apps-without-permission/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1867" class="post-1867 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-keylogger-android/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-keylogger-android/" title="6 Best Keyloggers For Android in 2021 (Hidden)" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-keylogger-android/" title="6 Best Keyloggers For Android in 2021 (Hidden)" target="_blank">6 Best Keyloggers For Android in 2021 (Hidden)</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Choosing the right Android keylogger can be overwhelming and dangerous &#8211; considering <a class="more-link" href="https://www.suspekt.org/best-keylogger-android/#more-1867"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-keylogger-android/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article></main><div class="thrv_wrapper thrv_text_element"><h2 class="" style="text-align: center;">Password Managers</h2></div><style type="text/css" class="tve_global_style">@media(min-width: 300px){.tcb-style-wrap h5 {color:rgb(41, 60, 79);background-color:rgba(0, 0, 0, 0);font-family:"Droid Sans", sans-serif;font-size:17px;font-weight:400;font-style:normal;margin:0px 0px 20px;padding:0px;text-decoration:none solid rgb(41, 60, 79);text-transform:none;border-left:0px none rgb(41, 60, 79);--tcb-applied-color:;}}</style><main class="tcb-post-list thrv_wrapper" data-type="grid" data-pagination-type="none" data-pages_near_current="2" data-css="tve-u-175d1e53c43" data-total_post_count="3" data-total_sticky_count="0" data-no_posts_text="" data-disabled-links="0"><article id="post-1160" class="post-1160 post type-post status-publish format-standard hentry category-password-managers post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-password-manager/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-password-manager/" title="10 Best Password Manager Apps 2021 [Most Secure]" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-password-manager/" title="10 Best Password Manager Apps 2021 [Most Secure]" target="_blank">10 Best Password Manager Apps 2021 [Most Secure]</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>It is time to ditch the sticky notes and get a peace <a class="more-link" href="https://www.suspekt.org/best-password-manager/#more-1160"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-password-manager/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1301" class="post-1301 post type-post status-publish format-standard hentry category-password-managers post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/splashid-review/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/splashid-review/" title="SplashID Review (2021): Decent With Limitations" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/splashid-review/" title="SplashID Review (2021): Decent With Limitations" target="_blank">SplashID Review (2021): Decent With Limitations</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Compared to a lot of password management software you can find on <a class="more-link" href="https://www.suspekt.org/splashid-review/#more-1301"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/splashid-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1277" class="post-1277 post type-post status-publish format-standard hentry category-password-managers post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/safeincloud-review/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/safeincloud-review/" title="SafeInCloud Review (2021): Good for Newbies" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/safeincloud-review/" title="SafeInCloud Review (2021): Good for Newbies" target="_blank">SafeInCloud Review (2021): Good for Newbies</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>SafeInCloud is a password manager that offers cross-platform password services that gives <a class="more-link" href="https://www.suspekt.org/safeincloud-review/#more-1277"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/safeincloud-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article></main><div class="thrv_wrapper thrv_text_element"><h2 class="" style="text-align: center;">​VPN Guides</h2></div><style type="text/css" class="tve_global_style">@media(min-width: 300px){.tcb-style-wrap h5 {color:rgb(41, 60, 79);background-color:rgba(0, 0, 0, 0);font-family:"Droid Sans", sans-serif;font-size:17px;font-weight:400;font-style:normal;margin:0px 0px 20px;padding:0px;text-decoration:none solid rgb(41, 60, 79);text-transform:none;border-left:0px none rgb(41, 60, 79);--tcb-applied-color:;}}</style><main class="tcb-post-list thrv_wrapper" data-type="grid" data-pagination-type="none" data-pages_near_current="2" data-css="tve-u-175d210aeda" data-total_post_count="6" data-total_sticky_count="0" data-no_posts_text="" data-disabled-links="0"><article id="post-855" class="post-855 post type-post status-publish format-standard hentry category-vpn post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/nordvpn-vs-ipvanish/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/nordvpn-vs-ipvanish/" title="NordVPN vs IPVanish (2021) &#8211; Compared and Reviewed" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/nordvpn-vs-ipvanish/" title="NordVPN vs IPVanish (2021) &#8211; Compared and Reviewed" target="_blank">NordVPN vs IPVanish (2021) &#8211; Compared and Reviewed</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>NordVPN and IPVanish are among the top names in the VPN industry. <a class="more-link" href="https://www.suspekt.org/nordvpn-vs-ipvanish/#more-855"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/nordvpn-vs-ipvanish/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-827" class="post-827 post type-post status-publish format-standard hentry category-vpn post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/expressvpn-vs-ipvanish/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/expressvpn-vs-ipvanish/" title="ExpressVPN vs IPVanish (2021) &#8211; The Comparison You Need" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/expressvpn-vs-ipvanish/" title="ExpressVPN vs IPVanish (2021) &#8211; The Comparison You Need" target="_blank">ExpressVPN vs IPVanish (2021) &#8211; The Comparison You Need</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>ExpressVPN and IPVanish are the two most popular service provider in the <a class="more-link" href="https://www.suspekt.org/expressvpn-vs-ipvanish/#more-827"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/expressvpn-vs-ipvanish/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-848" class="post-848 post type-post status-publish format-standard hentry category-vpn post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/nordvpn-vs-private-internet-access/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/nordvpn-vs-private-internet-access/" title="NordVPN vs Private Internet Access (PIA) in 2021" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/nordvpn-vs-private-internet-access/" title="NordVPN vs Private Internet Access (PIA) in 2021" target="_blank">NordVPN vs Private Internet Access (PIA) in 2021</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>NordVPN and Private Internet Access (PIA) are among the big names in <a class="more-link" href="https://www.suspekt.org/nordvpn-vs-private-internet-access/#more-848"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/nordvpn-vs-private-internet-access/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-839" class="post-839 post type-post status-publish format-standard hentry category-vpn post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/nordvpn-vs-expressvpn/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/nordvpn-vs-expressvpn/" title="NordVPN vs ExpressVPN (2021) &#8211; The Ultimate Battle" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/nordvpn-vs-expressvpn/" title="NordVPN vs ExpressVPN (2021) &#8211; The Ultimate Battle" target="_blank">NordVPN vs ExpressVPN (2021) &#8211; The Ultimate Battle</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>NordVPN and ExpressVPN are the two most popular service provider in the <a class="more-link" href="https://www.suspekt.org/nordvpn-vs-expressvpn/#more-839"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/nordvpn-vs-expressvpn/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-997" class="post-997 post type-post status-publish format-standard has-post-thumbnail hentry category-vpn post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-vpn-for-android/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-vpn-for-android/" title="Best VPN for Android in 2021 – Our Top Picks Reviewed" data-css=""><img width="865" height="465" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20865%20465'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="" data-lazy-srcset="https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design.png 865w, https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design-300x161.png 300w, https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design-768x413.png 768w" data-lazy-sizes="(max-width: 865px) 100vw, 865px" data-lazy-src="https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design.png" /><noscript><img width="865" height="465" src="https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design.png" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design.png 865w, https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design-300x161.png 300w, https://www.suspekt.org/wp-content/uploads/2020/02/Untitled-design-768x413.png 768w" sizes="(max-width: 865px) 100vw, 865px" /></noscript></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-vpn-for-android/" title="Best VPN for Android in 2021 – Our Top Picks Reviewed" target="_blank">Best VPN for Android in 2021 – Our Top Picks Reviewed</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>The internet has greatly evolved over the years to grant us access <a class="more-link" href="https://www.suspekt.org/best-vpn-for-android/#more-997"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-vpn-for-android/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1122" class="post-1122 post type-post status-publish format-standard hentry category-vpn post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-vpn-for-streaming/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-vpn-for-streaming/" title="Best VPN For Streaming – Our Picks (2021)" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-vpn-for-streaming/" title="Best VPN For Streaming – Our Picks (2021)" target="_blank">Best VPN For Streaming – Our Picks (2021)</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>This is probably not the first time you are looking for a <a class="more-link" href="https://www.suspekt.org/best-vpn-for-streaming/#more-1122"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-vpn-for-streaming/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article></main><div class="thrv_wrapper thrv_text_element"><h2 class="" style="text-align: center;">​Best Spy Apps by applications<br></h2></div><style type="text/css" class="tve_global_style">@media(min-width: 300px){.tcb-style-wrap h5 {color:rgb(41, 60, 79);background-color:rgba(0, 0, 0, 0);font-family:"Droid Sans", sans-serif;font-size:17px;font-weight:400;font-style:normal;margin:0px 0px 20px;padding:0px;text-decoration:none solid rgb(41, 60, 79);text-transform:none;border-left:0px none rgb(41, 60, 79);--tcb-applied-color:;}}</style><main class="tcb-post-list thrv_wrapper" data-type="grid" data-pagination-type="none" data-pages_near_current="2" data-css="tve-u-174fe211209" data-total_post_count="6" data-total_sticky_count="0" data-no_posts_text="" data-disabled-links="0"><article id="post-1834" class="post-1834 post type-post status-publish format-standard has-post-thumbnail hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/catch-a-cheater-app/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/catch-a-cheater-app/" title="The Best “Catch a Cheater” Apps Review in 2022 – Time to Call It Quit" data-css=""><img width="560" height="414" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20560%20414'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="how to catch a cheater" data-lazy-srcset="https://www.suspekt.org/wp-content/uploads/2021/05/catch-a-cheater.jpg 560w, https://www.suspekt.org/wp-content/uploads/2021/05/catch-a-cheater-300x222.jpg 300w" data-lazy-sizes="(max-width: 560px) 100vw, 560px" data-lazy-src="https://www.suspekt.org/wp-content/uploads/2021/05/catch-a-cheater.jpg" /><noscript><img width="560" height="414" src="https://www.suspekt.org/wp-content/uploads/2021/05/catch-a-cheater.jpg" class="attachment-full size-full wp-post-image" alt="how to catch a cheater" srcset="https://www.suspekt.org/wp-content/uploads/2021/05/catch-a-cheater.jpg 560w, https://www.suspekt.org/wp-content/uploads/2021/05/catch-a-cheater-300x222.jpg 300w" sizes="(max-width: 560px) 100vw, 560px" /></noscript></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/catch-a-cheater-app/" title="The Best “Catch a Cheater” Apps Review in 2022 – Time to Call It Quit" target="_blank">The Best “Catch a Cheater” Apps Review in 2022 – Time to Call It Quit</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Ready to discover if your suspicions are right and uncover the truth <a class="more-link" href="https://www.suspekt.org/catch-a-cheater-app/#more-1834"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/catch-a-cheater-app/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1796" class="post-1796 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/snapchat-monitoring-apps/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/snapchat-monitoring-apps/" title="9 Best Snapchat Monitoring and Spy Apps Review (2022)" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/snapchat-monitoring-apps/" title="9 Best Snapchat Monitoring and Spy Apps Review (2022)" target="_blank">9 Best Snapchat Monitoring and Spy Apps Review (2022)</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>If you are a parent of a teenager, you may be reading <a class="more-link" href="https://www.suspekt.org/snapchat-monitoring-apps/#more-1796"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/snapchat-monitoring-apps/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1865" class="post-1865 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/whatsapp-spy-apps-for-android/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/whatsapp-spy-apps-for-android/" title="6 Best WhatsApp Spy Apps for Android and iPhone 2021" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/whatsapp-spy-apps-for-android/" title="6 Best WhatsApp Spy Apps for Android and iPhone 2021" target="_blank">6 Best WhatsApp Spy Apps for Android and iPhone 2021</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>​If you are looking to spy on Whatsapp, the best way is <a class="more-link" href="https://www.suspekt.org/whatsapp-spy-apps-for-android/#more-1865"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/whatsapp-spy-apps-for-android/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1815" class="post-1815 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-facebook-messenger-spy-apps/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-facebook-messenger-spy-apps/" title="The 10 Best Facebook Messenger Spy Apps Review in 2021" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-facebook-messenger-spy-apps/" title="The 10 Best Facebook Messenger Spy Apps Review in 2021" target="_blank">The 10 Best Facebook Messenger Spy Apps Review in 2021</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Facebook Messenger is among the most favorite social networks in the world <a class="more-link" href="https://www.suspekt.org/best-facebook-messenger-spy-apps/#more-1815"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-facebook-messenger-spy-apps/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1869" class="post-1869 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-sms-trackers-review/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-sms-trackers-review/" title="The Best SMS Trackers Review (2021) &#8211; For Android and iPhone" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-sms-trackers-review/" title="The Best SMS Trackers Review (2021) &#8211; For Android and iPhone" target="_blank">The Best SMS Trackers Review (2021) &#8211; For Android and iPhone</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Quick Navigation Introduction to SMS TrackersBest SMS Trackers Review – Our Top <a class="more-link" href="https://www.suspekt.org/best-sms-trackers-review/#more-1869"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-sms-trackers-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article><article id="post-1883" class="post-1883 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " tcb_hover_state_parent="" data-selector=".post-wrapper" data-permalink="https://www.suspekt.org/best-sim-card-trackers/"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/best-sim-card-trackers/" title="The Best SIM Card Trackers Review in 2021 – A Complete Buying Guide" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/best-sim-card-trackers/" title="The Best SIM Card Trackers Review in 2021 – A Complete Buying Guide" target="_blank">The Best SIM Card Trackers Review in 2021 – A Complete Buying Guide</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>A SIM Card Tracker is essentially a tracking software and technology that <a class="more-link" href="https://www.suspekt.org/best-sim-card-trackers/#more-1883"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/best-sim-card-trackers/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	<div class="tve-article-cover"></div></article></main><div class="thrv_wrapper thrv_text_element"><h2 class="" style="text-align: center;">​Top Spy App Reviews<br></h2></div><style type="text/css" class="tve_global_style">@media(min-width: 300px){.tcb-style-wrap h5 {color:rgb(41, 60, 79);background-color:rgba(0, 0, 0, 0);font-family:"Droid Sans", sans-serif;font-size:17px;font-weight:400;font-style:normal;margin:0px 0px 20px;padding:0px;text-decoration:none solid rgb(41, 60, 79);text-transform:none;border-left:0px none rgb(41, 60, 79);--tcb-applied-color:;}}</style><main class="tcb-post-list thrv_wrapper" data-type="grid" data-pagination-type="none" data-pages_near_current="2" data-css="tve-u-170aefdc6e0" data-no_posts_text="" data-total_post_count="6" data-total_sticky_count="0"><article id="post-1677" class="post-1677 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " data-selector=".post-wrapper"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/cocospy-review/" title="Cocospy Review (2021) – Is It Worth All the Bucks?" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/cocospy-review/" title="Cocospy Review (2021) – Is It Worth All the Bucks?" target="_blank">Cocospy Review (2021) – Is It Worth All the Bucks?</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>For concerned parents wanting to keep tabs on their children’s smartphone activities, <a class="more-link" href="https://www.suspekt.org/cocospy-review/#more-1677"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/cocospy-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</article><article id="post-306" class="post-306 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " data-selector=".post-wrapper"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/spybubble-app-review/" title="SpyBubble Review (2021) – Simplistic, Straightforward" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/spybubble-app-review/" title="SpyBubble Review (2021) – Simplistic, Straightforward" target="_blank">SpyBubble Review (2021) – Simplistic, Straightforward</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>SpyBubble is another leading spy app available in the markets. Marketed as <a class="more-link" href="https://www.suspekt.org/spybubble-app-review/#more-306"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/spybubble-app-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</article><article id="post-1684" class="post-1684 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " data-selector=".post-wrapper"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/spyic-review/" title="Spyic Review in 2021 – A Comprehensive Guide" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/spyic-review/" title="Spyic Review in 2021 – A Comprehensive Guide" target="_blank">Spyic Review in 2021 – A Comprehensive Guide</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Mobile phone monitoring apps are an important tool that can help parents <a class="more-link" href="https://www.suspekt.org/spyic-review/#more-1684"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/spyic-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</article><article id="post-315" class="post-315 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " data-selector=".post-wrapper"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/spyzie-review/" title="Spyzie Review (2021) : Made for Parents" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/spyzie-review/" title="Spyzie Review (2021) : Made for Parents" target="_blank">Spyzie Review (2021) : Made for Parents</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>Spyzie markets itself as an “all in one parental control” app. Advertised <a class="more-link" href="https://www.suspekt.org/spyzie-review/#more-315"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/spyzie-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</article><article id="post-256" class="post-256 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " data-selector=".post-wrapper"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/flexispy-review/" title="FlexiSPY Review (2021) – A Write-up on World’s Most Powerful Spy App" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/flexispy-review/" title="FlexiSPY Review (2021) – A Write-up on World’s Most Powerful Spy App" target="_blank">FlexiSPY Review (2021) – A Write-up on World’s Most Powerful Spy App</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>There are many spying and monitoring apps in the market, but a <a class="more-link" href="https://www.suspekt.org/flexispy-review/#more-256"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/flexispy-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</article><article id="post-1672" class="post-1672 post type-post status-publish format-standard hentry category-spy-apps post-wrapper thrv_wrapper " data-selector=".post-wrapper"><style class="tcb-post-list-dynamic-style" type="text/css"></style>
+		<a class="tcb-post-thumbnail tcb-shortcode thrv_wrapper" href="https://www.suspekt.org/mspy-review/" title="mSpy Reviews in 2021 – Hear what other users say" data-css=""><img width="743" height="385" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20385'%3E%3C/svg%3E" data-lazy-src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"><noscript><img width="743" height="385" src="https://www.suspekt.org/wp-content/plugins/thrive-visual-editor/editor/css/images/featured_image.png"></noscript></img></a>
+		
+
+		<h2 class="tcb-post-title tcb-shortcode thrv_wrapper"><a href="https://www.suspekt.org/mspy-review/" title="mSpy Reviews in 2021 – Hear what other users say" target="_blank">mSpy Reviews in 2021 – Hear what other users say</a></h2>
+
+		<section class="tcb-post-content tcb-shortcode thrv_wrapper"><p>The smartphone app market is saturated with various applications that let a <a class="more-link" href="https://www.suspekt.org/mspy-review/#more-1672"></a></p></section>
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="https://www.suspekt.org/mspy-review/" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</article></main></div></div><div class="tcb_flag" style="display: none"></div>
+		</div>
+
+			</div>
+</article>
+		</main>
+	</div>
+
+	
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info grid-container grid-parent">
+								<div class="copyright-bar">
+					Suspekt.org -  &copy; Copyright 2022				</div>
+			</div>
+		</footer>
+		</div>
+
+
+<script>
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+</script>
+
+
+
+
+<script>
+var tve_frontend_options = {"ajaxurl":"https:\/\/www.suspekt.org\/wp-admin\/admin-ajax.php","is_editor_page":"","page_events":[],"is_single":"1","social_fb_app_id":"","dash_url":"https:\/\/www.suspekt.org\/wp-content\/plugins\/thrive-visual-editor\/thrive-dashboard","translations":{"Copy":"Copy"},"routes":{"posts":"https:\/\/www.suspekt.org\/wp-json\/tcb\/v1\/posts"},"ip":"63.143.42.251","current_user":[],"post_id":"1097","post_title":"Be Suspicious. Online Security Blog \u2013 Suspekt.org","post_type":"page","post_url":"https:\/\/www.suspekt.org\/","post_request_data":[]};
+var tve_frontend_options = {"ajaxurl":"https:\/\/www.suspekt.org\/wp-admin\/admin-ajax.php","is_editor_page":"","page_events":[],"is_single":"1","social_fb_app_id":"","dash_url":"https:\/\/www.suspekt.org\/wp-content\/plugins\/thrive-visual-editor\/thrive-dashboard","translations":{"Copy":"Copy"},"routes":{"posts":"https:\/\/www.suspekt.org\/wp-json\/tcb\/v1\/posts"},"ip":"63.143.42.251","current_user":[],"post_id":"1633","post_title":"9 Best Phone Spy Apps for Android and iPhone of 2022","post_type":"post","post_url":"https:\/\/www.suspekt.org\/best-spy-apps\/","post_request_data":[]};
+</script>
+
+<script>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script>
+(function() {
+"use strict";var e=function(){function n(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(e,t,r){return t&&n(e.prototype,t),r&&n(e,r),e}}();function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function r(e,t){n(this,r),this.attrName="data-rocketlazyloadscript",this.browser=t,this.options=this.browser.options,this.triggerEvents=e,this.userEventListener=this.triggerListener.bind(this)}return e(r,[{key:"init",value:function(){this._addEventListener(this)}},{key:"reset",value:function(){this._removeEventListener(this)}},{key:"_addEventListener",value:function(t){this.triggerEvents.forEach(function(e){return window.addEventListener(e,t.userEventListener,t.options)})}},{key:"_removeEventListener",value:function(t){this.triggerEvents.forEach(function(e){return window.removeEventListener(e,t.userEventListener,t.options)})}},{key:"_loadScriptSrc",value:function(){var r=this,e=document.querySelectorAll("script["+this.attrName+"]");0!==e.length&&Array.prototype.slice.call(e).forEach(function(e){var t=e.getAttribute(r.attrName);e.setAttribute("src",t),e.removeAttribute(r.attrName)}),this.reset()}},{key:"triggerListener",value:function(){this._loadScriptSrc(),this._removeEventListener(this)}}],[{key:"run",value:function(){RocketBrowserCompatibilityChecker&&new r(["keydown","mouseover","touchmove","touchstart","wheel"],new RocketBrowserCompatibilityChecker({passive:!0})).init()}}]),r}();t.run();
+}());
+</script>
+<!--[if lte IE 11]>
+<script src='https://www.suspekt.org/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.0.3'></script>
+<![endif]-->
+<script>
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+
+<script>
+var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};
+var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};
+</script>
+
+<script>
+var tve_dash_front = {"ajaxurl":"https:\/\/www.suspekt.org\/wp-admin\/admin-ajax.php","force_ajax_send":"1","is_crawler":""};
+var tve_dash_front = {"ajaxurl":"https:\/\/www.suspekt.org\/wp-admin\/admin-ajax.php","force_ajax_send":"1","is_crawler":""};
+</script>
+
+
+
+<script class="tcb-post-list-template" type="text/template" data-identifier="tve-u-174fe1f6678">[tcb_post_list_dynamic_style][/tcb_post_list_dynamic_style]
+		[tcb_post_featured_image type-url='post_url' type-display='default_image' size='full' post_id='1867']
+		
+
+		[tcb_post_title]
+
+		[tcb_post_content size='words' read_more='' words='12']
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="[tcb_post_the_permalink]" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</script><script class="tcb-post-list-template" type="text/template" data-identifier="tve-u-175d1e53c43">[tcb_post_list_dynamic_style][/tcb_post_list_dynamic_style]
+		[tcb_post_featured_image type-url='post_url' type-display='default_image' size='full' post_id='1301']
+		
+
+		[tcb_post_title]
+
+		[tcb_post_content size='words' read_more='' words='12']
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="[tcb_post_the_permalink]" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</script><script class="tcb-post-list-template" type="text/template" data-identifier="tve-u-175d210aeda">[tcb_post_list_dynamic_style][/tcb_post_list_dynamic_style]
+		[tcb_post_featured_image type-url='post_url' type-display='default_image' size='full' post_id='1122']
+		
+
+		[tcb_post_title]
+
+		[tcb_post_content size='words' read_more='' words='12']
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="[tcb_post_the_permalink]" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</script><script class="tcb-post-list-template" type="text/template" data-identifier="tve-u-174fe211209">[tcb_post_list_dynamic_style][/tcb_post_list_dynamic_style]
+		[tcb_post_featured_image type-url='post_url' type-display='default_image' size='full' post_id='1865']
+		
+
+		[tcb_post_title]
+
+		[tcb_post_content size='words' read_more='' words='12']
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="[tcb_post_the_permalink]" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</script><script class="tcb-post-list-template" type="text/template" data-identifier="tve-u-170aefdc6e0">[tcb_post_list_dynamic_style][/tcb_post_list_dynamic_style]
+		[tcb_post_featured_image type-url='post_url' type-display='default_image' size='full' post_id='306']
+		
+
+		[tcb_post_title]
+
+		[tcb_post_content size='words' read_more='' words='12']
+
+		<div class="tcb-clear tcb-post-read-more-clear">
+			<div class="tcb-post-read-more thrv_wrapper">
+				<a href="[tcb_post_the_permalink]" class="tcb-button-link tcb-post-read-more-link">
+					<span class="tcb-button-texts">
+						<span class="tcb-button-text thrv-inline-text">​Read More</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</script><script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.suspekt.org/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+<script>"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script src="https://www.suspekt.org/wp-content/cache/min/1/c9c2d0785700b93f35687847381cba4a.js" data-minify="1" defer></script><noscript><link rel="stylesheet" href="https://www.suspekt.org/wp-content/cache/min/1/ba462dea383067fc2679cd45db4d42a0.css" media="all" data-minify="1" /><link rel='stylesheet' id='generate-fonts-css'  href='//fonts.googleapis.com/css?family=Droid+Sans:regular,700|Raleway:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' /></noscript></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->
